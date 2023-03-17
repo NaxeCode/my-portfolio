@@ -1,0 +1,17 @@
+.title {
+    color: #ffffff;
+    background-color: #2a9d8f;
+    margin-left: 500px;
+    margin-right: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    border-radius: 4px;
+  }
+
+.rounded-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
