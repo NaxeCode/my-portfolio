@@ -1,13 +1,5 @@
 import React from 'react';
-import '../styles/titleStyle.css';
-
-const headingStyles = {
-    color: '#FFFFFF',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    fontSize: 35,
-};
+import '../styles/Styles.css';
 
 const paragraphStyles = {
     color: '#f1faee',
@@ -17,7 +9,7 @@ const paragraphStyles = {
 function Skills() {
     return (
         <>
-            <h2 style={headingStyles}>Skills!</h2>
+            <h2>Skills!</h2>
             <ul>
                 <li style={paragraphStyles}>Programming Languages</li>
                 <ul>

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/titleStyle.css';
+import '../styles/Styles.css';
 
 const codeStyles = {
     color: "#FF6534",
