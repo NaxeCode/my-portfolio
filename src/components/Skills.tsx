@@ -1,6 +1,10 @@
 import React from 'react';
 
-function Skills(props) {
+interface SkillsProps {
+  skills: string[];
+}
+
+function Skills(props: SkillsProps) {
   return (
     <section>
       <h2>Skills!</h2>
