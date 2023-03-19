@@ -1,6 +1,10 @@
 import React from 'react';
 
-function Who(props) {
+interface WhoProps {
+  intro: string;
+}
+
+function Who(props: WhoProps) {
   return (
     <section>
       <h2>Who?</h2>
