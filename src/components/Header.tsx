@@ -2,7 +2,12 @@ import React from "react";
 import { StaticImage } from "gatsby-plugin-image"
 import "../styles/Styles.css"
 
-function Header(props) {
+interface HeaderProps {
+    name: string;
+    imgSrc: string;
+}
+
+function Header(props: HeaderProps) {
     return (
         <header>
             <StaticImage
