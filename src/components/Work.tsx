@@ -1,7 +1,16 @@
 import React from 'react';
 import "../styles/Work.css";
 
-function Work(props) {
+interface Project {
+  name: string;
+  image: string;
+}
+
+interface WorkProps {
+  projects: Project[];
+}
+
+function Work(props: WorkProps) {
   return (
     <section>
       <h2>Work</h2>
