@@ -6,6 +6,7 @@ import Skills from '../components/Skills';
 import Work from '../components/Work';
 import Footer from '../components/Footer';
 import port from "../images/icon.png";
+import '../styles/tailwind.css';
 
 const mainStyle = {
   backgroundColor: "#264653",
