@@ -1,9 +1,10 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
-import Header from "../components/Header"
-import Skills from "../components/Skills"
-import Projects from "../components/Projects"
-import Footer from "../components/Footer"
+import Header from '../components/Header';
+import Who from '../components/Who';
+import Skills from '../components/Skills';
+import Work from '../components/Work';
+import Footer from '../components/Footer';
 
 const mainStyle = {
   backgroundColor: "#264653",
@@ -33,15 +34,16 @@ const paragraphStyles = {
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
-    <div style={mainStyle}>
-      <main style={pageStyles}>
-        <Header />
-        <Skills />
-        <Projects />
-        <Footer />
-        
-        
-      </main>
+    <div className="App">
+      <Header name="NaxeCode" />
+      <Who intro="Welcome to my website! I'm a software engineer and game programmer based in Portland, Oregon USA. With my experience working on indie and live service games. This site showcases results of my passion and dedication, featuring a collection of games and software projects. From crafting engaging gameplay mechanics to designing elegant code architecture, I pour my heart and soul into every project. Take a look around my portfolio and feel free to get in touch with me to learn more about my work or to discuss potential collaborations." />
+      <Skills skills={['JavaScript', 'React', 'HTML', 'CSS']} />
+      <Work projects={[
+        { name: 'Project 1', image: 'project1.jpg' },
+        { name: 'Project 2', image: 'project2.jpg' },
+        { name: 'Project 3', image: 'project3.jpg' },
+      ]} />
+      <Footer />
     </div>
   )
 }
