@@ -16,7 +16,7 @@
 		padding-top: 25px;
 		padding-bottom: 10px;
 	}
-	p, ul {
+	p {
 		@apply text-paragraph;
 		font-size: 1.1rem;
 		display: flex;
@@ -26,6 +26,9 @@
 		text-align: justify;
 		padding-left: 25vw;
 		padding-right: 25vw;
+	}
+	li {
+		@apply text-paragraph;
 	}
 }
 
@@ -54,6 +57,20 @@ header > h1 {
 	margin-top: 5px;
 }
 
+.list-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 25vw;
+	padding-right: 25vw;
+}
+
+.list-wrapper > li {
+	flex-basis: 25%;
+	max-width: 25%;
+	font-size: 1.1rem;
+	@apply list-disc;
+}
+
 .grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -67,7 +84,7 @@ header > h1 {
 }
 
 .project img {
-	width: 100%;
+	width: 50%;
 	height: auto;
 	margin-bottom: 10px;
 }
