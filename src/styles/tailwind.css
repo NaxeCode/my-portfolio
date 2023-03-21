@@ -2,6 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-	background-color: #181a1b;
+@layer utilities {
+	h1 {
+		@apply text-author font-bold;
+	}
+	h2 {
+		@apply text-header font-bold;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	p {
+		@apply text-paragraph;
+		text-align: justify;
+	}
+}
+
+.rounded-img {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+
+div {
+	background-color: theme('colors.mainBG');
+}
+
+header {
+	background-color: theme('colors.headerBG');
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 35vh;
+	padding-top: 10px;
+}
+
+header > h1 {
+	font-size: 3rem; /* adjust as needed */
+	margin-top: 5px;
 }
