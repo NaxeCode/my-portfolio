@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styles/Work.css";
+import "../styles/tailwind.css";
 
 interface Project {
   name: string;
