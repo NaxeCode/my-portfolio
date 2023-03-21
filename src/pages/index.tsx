@@ -9,12 +9,15 @@ import port from "../images/icon.png";
 import '../styles/tailwind.css';
 
 const introText = "Welcome to my website! I'm a software engineer and game programmer based in Portland, Oregon. This site showcases my collection of games and software projects. From crafting engaging gameplay mechanics to designing elegant code architecture, I pour my heart and soul into every project. Take a look around and feel free to get in touch with me to learn more or discuss potential collaborations.";
+const languages = ['Haxe', 'C++', 'C#', 'HTML', 'CSS'];
+const frameworks = ['HaxeFlixel', '.Net Core', 'React', "Gatsby"];
+const engines = ['XNA / FNA', 'Unity', 'Unreal', 'React', 'Unity'];
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <div>
       <Header name="NaxeCode"/>
       <Who intro={introText} />
-      <Skills skills={['JavaScript', 'React', 'HTML', 'CSS']} />
+      <Skills programming={languages} frameworks={frameworks} engines={engines} />
       <Work projects={[
         { name: 'Project 1', image: port },
         { name: 'Project 2', image: port },
