@@ -8,11 +8,12 @@ import Footer from '../components/Footer';
 import port from "../images/icon.png";
 import '../styles/tailwind.css';
 
+const introText = "Welcome to my website! I'm a software engineer and game programmer based in Portland, Oregon. This site showcases my collection of games and software projects. From crafting engaging gameplay mechanics to designing elegant code architecture, I pour my heart and soul into every project. Take a look around and feel free to get in touch with me to learn more or discuss potential collaborations.";
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <div>
       <Header name="NaxeCode"/>
-      <Who intro="Welcome to my website! I'm a software engineer and game programmer based in Portland, Oregon USA. With my experience working on indie and live service games. This site showcases results of my passion and dedication, featuring a collection of games and software projects. From crafting engaging gameplay mechanics to designing elegant code architecture, I pour my heart and soul into every project. Take a look around my portfolio and feel free to get in touch with me to learn more about my work or to discuss potential collaborations." />
+      <Who intro={introText} />
       <Skills skills={['JavaScript', 'React', 'HTML', 'CSS']} />
       <Work projects={[
         { name: 'Project 1', image: port },
