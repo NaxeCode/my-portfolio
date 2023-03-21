@@ -58,10 +58,11 @@ header > h1 {
 }
 
 .list-wrapper {
+	background-color: theme('colors.headerBG');
 	display: flex;
 	flex-wrap: wrap;
-	padding-left: 25vw;
-	padding-right: 25vw;
+	padding-left: 30vw;
+	padding-right: 30vw;
 }
 
 .list-wrapper > li {
