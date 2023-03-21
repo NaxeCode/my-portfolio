@@ -8,32 +8,6 @@ import Footer from '../components/Footer';
 import port from "../images/icon.png";
 import '../styles/tailwind.css';
 
-const mainStyle = {
-  backgroundColor: "#264653",
-}
-const pageStyles = {
-  color: "#232129",
-  paddingTop: 35,
-  paddingLeft: 96,
-  paddingRight: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  color: "#FFFFFF",
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  fontSize: 35,
-}
-
-const headingAccentStyles = {
-  color: "#a8dadc",
-}
-const paragraphStyles = {
-  color: "#f1faee",
-  marginBottom: 48,
-}
-
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <div>
