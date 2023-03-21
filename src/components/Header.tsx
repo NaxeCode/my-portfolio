@@ -4,7 +4,6 @@ import "../styles/Styles.css"
 
 interface HeaderProps {
     name: string;
-    imgSrc: string;
 }
 
 function Header(props: HeaderProps) {
