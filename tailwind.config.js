@@ -4,10 +4,10 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				headerBG: '#242423',
-				mainBG: '#333533',
-				author: '#F5CB5C',
-				header: '#E8EDDF',
+				headerBG: '#0c2444',
+				mainBG: '#0c2444',
+				author: '#f9a31b',
+				header: '#f9a31b',
 				paragraph: '#CFDBD5',
 			},
 		},
