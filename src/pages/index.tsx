@@ -18,7 +18,7 @@ import '../styles/tailwind.css';
 const introText = "Welcome to my website! I'm a software engineer and game programmer based in Portland, Oregon. This site showcases my collection of games and software projects. From crafting engaging gameplay mechanics to designing elegant code architecture, I pour my heart and soul into every project. Take a look around and feel free to get in touch with me to learn more or discuss potential collaborations.";
 const languages = ['Haxe', 'C++', 'C#', 'HTML', 'CSS', "JavaScript / Typescript", "Lua", "Golang", "Python"];
 const frameworks = ['HaxeFlixel', '.Net Core', "Xamarin", 'React', "Gatsby", "Phaser.io", "PixiJS", "Game Maker"];
-const engines = ['XNA / FNA', 'Unity', 'Unreal 4', 'Unity', "Godot"];
+const engines = ['XNA / FNA', 'Unity', 'Unreal 4', "Godot"];
 const areas = ["Git", "Online Networking", "AWS", "Azure", "Steamworks SDK", "Kubernetes & Docker", "Cloud Architecture", "Web UI / UX", "Game Design", "Technical Writing", "Mobile Porting (IOS & Android)", "Game Engine Design"];
 const IndexPage: React.FC<PageProps> = () => {
   return (
