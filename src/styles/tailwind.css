@@ -59,10 +59,13 @@ header > h1 {
 
 .list-wrapper {
 	background-color: theme('colors.headerBG');
+	border-radius: 50%;
 	display: flex;
 	flex-wrap: wrap;
-	padding-left: 30vw;
-	padding-right: 30vw;
+	padding-left: 20vw;
+	padding-right: 20vw;
+	padding-bottom: 15px;
+	padding-top: 15px;
 }
 
 .list-wrapper > li {
@@ -82,6 +85,8 @@ header > h1 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background-color: theme('colors.headerBG');
+	border-radius: 20%;
 }
 
 .project img {
