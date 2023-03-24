@@ -4,6 +4,7 @@ interface SkillsProps {
   programming: string[];
   frameworks: string[];
   engines: string[];
+  areas: string[];
 }
 
 function Skills(props: SkillsProps) {
@@ -27,6 +28,13 @@ function Skills(props: SkillsProps) {
       <ul className="list-wrapper">
         {props.engines.map((engines, index) => (
           <li key={index}>{engines}</li>
+        ))}
+      </ul>
+
+      <h2>Areas of Development</h2>
+      <ul className="list-wrapper">
+        {props.areas.map((areas, index) => (
+          <li key={index}>{areas}</li>
         ))}
       </ul>
     </section>
